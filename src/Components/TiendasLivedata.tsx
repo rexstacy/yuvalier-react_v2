@@ -11,7 +11,7 @@ function TiendasLivedata(props: tiendasDTO) {
       <Card.Body>
         <Card.Title>{props.ventas}</Card.Title>
         <Card.Text>
-          
+
         </Card.Text>
         <Button variant="primary">Detalles</Button>
       </Card.Body>

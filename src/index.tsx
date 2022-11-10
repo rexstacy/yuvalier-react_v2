@@ -12,7 +12,7 @@ const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 
- const tiendaslist : tiendasDTO[] = [
+const tiendaslist: tiendasDTO[] = [
   {
     codclasi: '025',
     nombre: 'sirena luperon',
@@ -26,12 +26,26 @@ const root = ReactDOM.createRoot(
     nombre_corto: 'sirena bani',
     ventas: 8500.00,
     horas: '20H 25M'
+  },
+  {
+    codclasi: '027',
+    nombre: 'sirena bani',
+    nombre_corto: 'sirena bani',
+    ventas: 8500.00,
+    horas: '20H 25M'
+  },
+  {
+    codclasi: '028',
+    nombre: 'sirena bani',
+    nombre_corto: 'sirena bani',
+    ventas: 8500.00,
+    horas: '20H 25M'
   }
- ]
+]
 
 root.render(
   <React.StrictMode>
-    <TiendasLivedataList tiendas={tiendaslist}/>
+    <TiendasLivedataList tiendas={tiendaslist} />
   </React.StrictMode>
 );
 
